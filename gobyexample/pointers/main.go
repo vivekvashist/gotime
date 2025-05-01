@@ -4,6 +4,10 @@
 // allows you to share and update the variable from multiple places
 // its more efficient than copying the variable multiple times
 // and if you need to manipulate a value accross function calls you need pointers
+// & -> address operator
+// * -> indirection operator (dereferencing)
+// *int -> a pointer type that represents a pointer
+// nil -> is an untyped identifier that represents the lack of value of certain types
 package main
 
 import "fmt"
