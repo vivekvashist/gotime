@@ -29,6 +29,7 @@ func main() {
 
 	p := &i
 	fmt.Printf("p:  %p\n", p)
+	fmt.Printf("Type of p:  %T\n", p)
 	fmt.Printf("*p:  %d\n", *p)
 	fmt.Printf("i: %d\n", i)
 	*p = 21 // changing *p to 21 changes the value of i
