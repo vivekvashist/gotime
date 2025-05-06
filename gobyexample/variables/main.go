@@ -5,19 +5,13 @@ import (
 )
 
 func main() {
-	var a = "initial"
-	fmt.Printf("%s\n", a)
-
-	var b, c int = 1, 2
-	fmt.Printf("%d, %d\n", b, c)
-
-	var d = true
-	fmt.Printf("%t\n", d)
-
-	var e int
-	fmt.Printf("%d\n", e)
-
-	f := "apple" // := shorthand for declaring and initializing a variable e.g var f string = "apple", This syntax is only available inside functions
-	fmt.Printf("%s\n", f)
-
+	var a int
+	var s string
+	var f float64
+	var b bool
+	fmt.Printf("var a int \t %[1]T %[1]v\n", a)
+	fmt.Printf("var s int \t %T [%v]\n", s, s)
+	fmt.Printf("var f int \t %T [%v]\n", f, f)
+	fmt.Printf("var b int \t %T [%v]\n", b, b)
+	fmt.Printf("\n\n")
 }
