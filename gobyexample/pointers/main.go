@@ -40,4 +40,11 @@ func main() {
 	p = &j
 	*p = *p / 37 // modifying of value j
 	fmt.Printf("j: %d\n", j)
+
+	age := 30
+	newAge := &age
+	fmt.Printf("newAge = %v\n", newAge)
+	fmt.Printf("&newAge = %p\n", &newAge)
+	fmt.Printf("*newAge = %v\n", *newAge)
+
 }
